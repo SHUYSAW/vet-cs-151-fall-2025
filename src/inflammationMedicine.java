@@ -2,6 +2,7 @@ public class inflammationMedicine extends Medication implements Service{
     /** There's no reason to re-modify the medication names and price */
     private final String medicationName = "Inflammmation Medicine";
     private final double price = 100.0;
+    private final int numOfPillsPerBottle = 30;
 
 
     @Override
@@ -17,7 +18,8 @@ public class inflammationMedicine extends Medication implements Service{
 
     @Override
     public String getDescription(){
-        return "Inflammation Medicine to help with burning sensations and ripped tissues";
+        return medicationName + "to help with burning sensations and ripped tissues\n" 
+        + numOfPillsPerBottle + "pills in total - take twice a day";
     }
 
 

@@ -12,4 +12,7 @@ public class Vet {
         this.isAvailible = isAvailible;
     }
 
+    /**the vet needs to assign how long the pet should take the pill for in 
+     * order for the owner to know if they even need refills or not */
+
 }
